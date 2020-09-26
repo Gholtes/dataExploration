@@ -1,0 +1,75 @@
+---
+title: "Initial Data Exploration Report"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+author: "Grant Holtes"
+output:
+  rmarkdown::html_document:
+    theme: yeti
+params:
+  data: data
+---
+
+```{r setup, include=FALSE}
+###Load files###
+library(knitr)
+source("univarient.R")
+source("bivarient.R")
+knitr::opts_chunk$set(echo = TRUE)
+
+###read params###
+dt <- params$data
+filename = "params$data"
+```
+
+## Summary
+
+### Data file information
+High level summary of the data file and available variables.
+
+```{r, echo=FALSE}
+kable(data_table_summary(dt, filename))
+```
+
+Note that numeric data may be any one of `double, integer, complex, logical or numeric`
+
+### Variable Details
+Information on each available variable.
+```{r, echo=FALSE}
+kable(univarient_table_summary(dt))
+```
+
+## Distributions of variables
+
+### Numeric distributions
+Understanding the distribution of numeric data is useful for informing data cleaning and modelling. Numeric data is assumed to be continuous for the creation of these distributions.
+
+```{r, echo=FALSE, message=FALSE, warning = FALSE}
+distributions(dt)
+```
+
+### Categorical distributions
+Categorical data is explored through the frequencies of occurrence of each category.
+```{r, echo=FALSE, message=FALSE, warning = FALSE}
+hists(dt)
+```
+
+## Correlations between variables
+
+
+### Correlation Matrix
+Linear correlation between variables, yields values between 1, -1. 1 and -1 correspond to perfect positive and negative relationships respectively, while values close to zero suggest no relationship between the variable pair. 
+```{r, echo=FALSE, message=FALSE, warning = FALSE}
+corrMat(dt)
+```
+
+### Pairwise Matrix
+Scatter plots for each pair of variables.
+```{r, echo=FALSE, message=FALSE, warning = FALSE}
+PairScatter(dt)
+```
+
+### Regressions
+Scatter plots and regressions for the three strongest pairwise correlations.
+```{r, echo=FALSE, message=FALSE, warning = FALSE}
+regressions(dt)
+```
