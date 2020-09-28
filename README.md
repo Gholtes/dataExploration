@@ -20,11 +20,11 @@ The tool creates a data summary, a univarient (distribution) analysis and a biva
 
 #### Data summary
 High level information about the dataset.
-![High Level Summary](https://github.com/Gholtes/dataExploration/images/highLevel.png)
+![UniVar Summary](https://github.com/Gholtes/dataExploration/blob/master/images/highLevel.PNG)
 
 #### Univarient analysis
 Detailed analysis of each variable and their distributions.
-![UniVar Summary](https://github.com/Gholtes/dataExploration/images/uniVar.png)
+![UniVar Summary](https://github.com/Gholtes/dataExploration/blob/master/images/uniVar.PNG)
 
 #### Bivarient analysis
 Analysis of the relationships between variables using correlation, regression and scatter plots.
