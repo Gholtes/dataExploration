@@ -16,7 +16,7 @@ Note that the scripts and RMD files need to be in the working directory for this
 
 ## Analysis
 
-The tool creates a data summary, a univarient (distribution) analysis and a bivarient (correlation and regression) analysis.
+The tool creates a data summary, a univarient (distribution) analysis and a bivarient (correlation and regression) analysis. Full example outputs are available for [the Titanic dataset](http://www.grantholtes.com/Titanic.html?) and [macroeconomic data](http://www.grantholtes.com/Swiss.html?)
 
 #### Data summary
 High level information about the dataset.
