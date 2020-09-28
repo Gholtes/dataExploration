@@ -28,8 +28,8 @@ Detailed analysis of each variable and their distributions.
 
 #### Bivarient analysis
 Analysis of the relationships between variables using correlation, regression and scatter plots.
-![UniVar Summary](https://github.com/Gholtes/dataExploration/images/biVar1.png)
-![UniVar Summary](https://github.com/Gholtes/dataExploration/images/biVar2.png)
+![UniVar Summary](https://github.com/Gholtes/dataExploration/blob/master/images/biVar1.PNG)
+![UniVar Summary](https://github.com/Gholtes/dataExploration/blob/master/images/biVar2.PNG)
 
 ### Prerequisites
 
