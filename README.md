@@ -20,21 +20,24 @@ The tool creates a data summary, a univarient (distribution) analysis and a biva
 
 #### Data summary
 High level information about the dataset.
+
 ![UniVar Summary](https://github.com/Gholtes/dataExploration/blob/master/images/highLevel.PNG)
 
 #### Univarient analysis
 Detailed analysis of each variable and their distributions.
+
 ![UniVar Summary](https://github.com/Gholtes/dataExploration/blob/master/images/uniVar.PNG)
 
 #### Bivarient analysis
 Analysis of the relationships between variables using correlation, regression and scatter plots.
+
 ![UniVar Summary](https://github.com/Gholtes/dataExploration/blob/master/images/biVar1.PNG)
+
 ![UniVar Summary](https://github.com/Gholtes/dataExploration/blob/master/images/biVar2.PNG)
 
 ### Prerequisites
 
 Required: ```R, RStudio``` are needed, and the ```dataExporation.R, univarient.R, bivarient.R, main.RMD``` files should be in the working directory.
-
 
 # License
 
