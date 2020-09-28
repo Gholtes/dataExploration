@@ -14,6 +14,19 @@ dataExploration(data)
 
 Note that the scripts and RMD files need to be in the working directory for this to work.
 
+## Analysis
+
+The tool creates a data summary, a univarient (distribution) analysis and a bivarient (correlation and regression) analysis.
+
+#### Data summary
+High level information about the dataset.
+
+#### Univarient analysis
+Detailed analysis of each variable and their distributions.
+
+#### Bivarient analysis
+Analysis of the relationships between variables using correlation, regression and scatter plots.
+
 ### Prerequisites
 
 Required: ```R, RStudio``` are needed, and the ```dataExporation.R, univarient.R, bivarient.R, main.RMD``` files should be in the working directory.
