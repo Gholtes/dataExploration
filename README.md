@@ -14,7 +14,7 @@ dataExploration(data)
 
 Note that the scripts and RMD files need to be in the working directory for this to work.
 
-### Prerequisites
+#### Prerequisites
 
 Required: ```R, RStudio``` are needed, and the ```dataExporation.R, univarient.R, bivarient.R, main.RMD``` files should be in the working directory.
 
@@ -40,6 +40,6 @@ Analysis of the relationships between variables using correlation, regression an
 ![UniVar Summary](https://github.com/Gholtes/dataExploration/blob/master/images/biVar2.PNG)
 
 
-# License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
