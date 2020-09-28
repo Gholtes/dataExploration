@@ -14,6 +14,10 @@ dataExploration(data)
 
 Note that the scripts and RMD files need to be in the working directory for this to work.
 
+### Prerequisites
+
+Required: ```R, RStudio``` are needed, and the ```dataExporation.R, univarient.R, bivarient.R, main.RMD``` files should be in the working directory.
+
 ## Analysis
 
 The tool creates a data summary, a univarient (distribution) analysis and a bivarient (correlation and regression) analysis. Full example outputs are available for [the Titanic dataset](http://www.grantholtes.com/Titanic.html?) and [macroeconomic data](http://www.grantholtes.com/Swiss.html?)
@@ -35,9 +39,6 @@ Analysis of the relationships between variables using correlation, regression an
 
 ![UniVar Summary](https://github.com/Gholtes/dataExploration/blob/master/images/biVar2.PNG)
 
-### Prerequisites
-
-Required: ```R, RStudio``` are needed, and the ```dataExporation.R, univarient.R, bivarient.R, main.RMD``` files should be in the working directory.
 
 # License
 
