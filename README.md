@@ -8,8 +8,8 @@ Using this tool is a simple as importing the ```dataExporation.R``` functions an
 ```
 data <- read.csv("your_data_file.csv")
 
-source("dataExporation.R")
-dataExploration(data)
+source("dataExplore.R")
+dataExplore(data)
 ```
 
 Note that the scripts and RMD files need to be in the working directory for this to work.
